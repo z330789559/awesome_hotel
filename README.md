@@ -2,15 +2,13 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
-
-integrate mongoose with nestjs , graphql and jwt, and also add some basic unit test
-separate  ths jwt  to two parts, one for user and one for admin
-account module complete  test  with  in-memory mongoose database
-use class-validator to validate the input data
-use chance to generate random data for test
-according to the requirement, the business logic is divided  account, auth, employee,order,room, utils,common module
-use .env file to store the environment variable
+- integrate mongoose with nestjs , graphql and jwt, and also add some basic unit test
+- separate  this jwt  to two parts, one for user and one for admin
+- account module complete  test  with  in-memory mongoose database
+- use class-validator to validate the input data
+- use chance to generate random data for test
+- according to the requirement, the business logic is divided  account, auth, employee,order,room, utils,common module
+- use .env file to store the environment variable
 
 
 ## Project setup
@@ -57,16 +55,4 @@ Check out a few resources that may come in handy when working with NestJS:
 - To stay in the loop and get updates, follow us on [X](https://x.com/nestframework) and [LinkedIn](https://linkedin.com/company/nestjs).
 - Looking for a job, or have a job to offer? Check out our official [Jobs board](https://jobs.nestjs.com).
 
-## Support
-
-Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
-
 ## Stay in touch
-
-- Author - [Kamil Myśliwiec](https://twitter.com/kammysliwiec)
-- Website - [https://nestjs.com](https://nestjs.com/)
-- Twitter - [@nestframework](https://twitter.com/nestframework)
-
-## License
-
-Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
